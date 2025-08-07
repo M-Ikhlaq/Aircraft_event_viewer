@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aircraft Intrusion Events Map</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  </head>
+  <body>
+    <h2>Aircraft Event Viewer</h2>
+    <div id="container">
+      <div id="sidebar">
+        <h3>Event Filter</h3>
+        <select id="eventDropdown">
+          <option value="">--select event--</option>
+        </select>
+      </div>
+      <div id="map"></div>
+    </div>
+    <script src="event.js"></script>
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
